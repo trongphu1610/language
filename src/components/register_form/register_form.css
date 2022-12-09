@@ -1,0 +1,165 @@
+.register {
+    height: 638px;
+    width: 800px;
+    left: 320px;
+    top: 193px;
+    border-radius: 8px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 60px;
+
+    position: absolute;
+    width: 800px;
+    height: 638px;
+    left: calc(50% - 800px/2);
+    top: calc(50% - 638px/2);
+
+    /* Surface/Primary */
+
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.body3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot {
+    font-family: YuGothic;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: YuGothic;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #252525;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.register_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.body2 {
+    flex-direction: column;
+    margin-top: 4px;
+    margin-right: 16px;
+}
+
+.title {
+    font-family: YuGothic;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 64px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 40px;
+
+}
+
+.title_register {
+    font-family: YuGothic;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #252525;
+}
+
+.buttonregister {
+    height: 48px;
+    width: 128px;
+    left: 276px;
+    top: 324px;
+    border-radius: 6px;
+    padding: 14px 24px 14px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+
+    width: 128px;
+    height: 48px;
+
+
+    background: #65CCC9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: YuGothic;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 336px;
+    margin-right: 336px;
+    margin-top: 24px;
+
+}
+
+.input_register {
+    border: 1px solid #D5D5D5;
+    height: 48px;
+    width: 332px;
+    left: 0px;
+    top: 36px;
+    border-radius: 4px;
+    padding: 12px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+
+    width: 332px;
+    height: 48px;
+
+    /* Object/White */
+
+    background: #FFFFFF;
+    /* Border/Primary */
+
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
